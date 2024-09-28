@@ -53,10 +53,7 @@ export default function NumberGuessing(): JSX.Element{
     const handleUserGuessChange = (e:ChangeEvent<HTMLInputElement>): void => {
         setUserGuess(parseInt(e.target.value))
     };
-
-    const greater = (): void => {
-
-    };
+    
  return (
     <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-gray-800 to-black">
         <div className="bg-white rounded-lg p-8 w-full max-w-md">
